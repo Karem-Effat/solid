@@ -10,5 +10,6 @@ package solid;
  * @author Kareem.Kamel
  */
 public interface emp {
+    public void work();
     
 }

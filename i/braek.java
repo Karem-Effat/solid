@@ -10,5 +10,6 @@ package solid;
  * @author Kareem.Kamel
  */
 public interface braek {
+    public void takebraek();
     
 }

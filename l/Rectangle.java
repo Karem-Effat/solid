@@ -9,6 +9,39 @@ package solid;
  *
  * @author Kareem.Kamel
  */
-public class Rectangle {
-    
+class Rectangle {
+    protected int w;
+    protected int h;
+
+    public void setWidth(int width) {
+        w = width;
+    }
+
+    public void setHeight(int height) {
+        h = height;
+    }
+
+    public int getWidth() {
+        return w;
+    }
+
+    public int getHeight() {
+        return h;
+    }
+
+    public int getArea() {
+        return w * h;
+    }
+}
+class Square extends Rectangle {
+    public void setWidth(int width) {
+        w = width;
+        h = width;
+    }
+
+    public void setHeight(int height) {
+        w = height;
+        h = height;
+    }
+
 }

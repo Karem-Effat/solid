@@ -10,5 +10,12 @@ package solid;
  * @author Kareem.Kamel
  */
 public class manage {
-    
+    private manageint manager;
+    public void setmanageint(manageint manager){
+        this.manager = manager;
+    }
+    public void manage(){
+        manager.work();
+        manager.takebraek();
+    }
 }

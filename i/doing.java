@@ -9,6 +9,14 @@ package solid;
  *
  * @author Kareem.Kamel
  */
-public class doing {
+public class doing implements emp , braek{
+    @Override
+    public void work(){
+        
+    }
     
+    @Override
+    public void takebraek(){
+        
+    }
 }

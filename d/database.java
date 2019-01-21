@@ -10,5 +10,14 @@ package solid;
  * @author Kareem.Kamel
  */
 public class database {
-    
+    private databasesql Mysql;
+    public database (){
+        this.Mysql = new databasesql();
+    }
+    public void connect () {
+        this.Mysql.connect();
+    }
+    public void disconnect() {
+        this.Mysql.disconnect();
+    }
 }

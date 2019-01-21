@@ -4,28 +4,27 @@
  * and open the template in the editor.
  */
 package solid;
-
+import java.lang.Math.*;
+import static java.lang.Math.PI;
 /**
  *
  * @author Kareem.Kamel
  */
 public interface shape{
-  public double calculateArea();
-
-    double areaclc();
+  public double areaclc();
 }
  
 public class rec implements shape{
   double length;
   double width;
-  public double calculateArea(){
+  public double areaclc(){
     return length * width;
   }
 }
  
 public class circle implements shape{
   public double radius;
-  public double calculateArea(){
-    return pi*radius*radius;
+  public double areaclc(){
+    return PI*radius*radius;
   }
 }

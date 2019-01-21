@@ -9,6 +9,6 @@ package solid;
  *
  * @author Kareem.Kamel
  */
-public interface manageint {
+public interface manageint extends braek,emp {
     
 }

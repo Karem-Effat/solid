@@ -9,6 +9,10 @@ package solid;
  *
  * @author Kareem.Kamel
  */
-public class machine {
+public class machine implements emp {
+    @Override
+    public void work(){
+        
+    }
     
 }
