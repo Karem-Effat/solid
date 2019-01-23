@@ -9,7 +9,6 @@ package solid;
  *
  * @author Kareem.Kamel
  */
-public interface bookshow {
-    public void print();
-    
+public interface booksave {
+    public void save();
 }

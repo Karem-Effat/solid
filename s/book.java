@@ -9,7 +9,7 @@ package solid;
  *
  * @author Kareem.Kamel
  */
-public class book implements bookshow {
+public class book implements bookshow , booksave {
     private int num_pages;
     private String author;
     
