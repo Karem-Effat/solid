@@ -11,8 +11,8 @@ package solid;
  */
 public class database {
     private databasesql Mysql;
-    public database (){
-        this.Mysql = new databasesql();
+    private database (){
+        this.Mysql = (databasesql) new database();
     }
     public void connect () {
         this.Mysql.connect();

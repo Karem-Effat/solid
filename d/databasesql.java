@@ -9,11 +9,7 @@ package solid;
  *
  * @author Kareem.Kamel
  */
-public class databasesql {
-    public void connect() {
-        System.out.println("connect ");
-    }
-     public void disconnect() {
-        System.out.println("disconnect ");
-    }
+public interface databasesql {
+    public void connect() ;
+     public void disconnect() ; 
 }
